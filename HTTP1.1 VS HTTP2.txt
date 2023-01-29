@@ -1,0 +1,16 @@
+QUESTION 1 ) DIFFERENCE BETWEEN HTTP1.1 VS HTTP 2 
+
+ANSWER :
+
+HTTP/1.1 and HTTP/2 are both versions of the HTTP (Hypertext Transfer Protocol) used for communicating between web clients and servers. The main difference between the two is that HTTP/2 is a more recent and advanced version of the protocol that offers several improvements over HTTP/1.1.
+
+Some of the key differences between HTTP/1.1 and HTTP/2 include:
+
+1) HTTP/2 uses a binary framing layer, whereas HTTP/1.1 uses plaintext headers. This allows for more efficient and less error-prone communication.
+
+2) HTTP/2 allows for multiplexing, which means that multiple requests can be sent and received simultaneously over a single connection, reducing the number of round trips required to load a webpage.
+
+3) HTTP/2 uses header compression, which reduces the size of headers and improves efficiency.
+
+4) HTTP/2 allows for server push, which means that the server can proactively push resources to the client, reducing the number of requests the client needs to make.
+Overall, HTTP/2 is designed to be faster, more efficient, and more secure than HTTP/1.1, and is generally recommended for use in new web development projects.
